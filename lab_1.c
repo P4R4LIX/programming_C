@@ -5,13 +5,13 @@
 int main()
 {
 	double a,b,c,x1,x2,d;
-	printf("vvedite a = ");
-	scanf("%lf",&a);
-	printf("vvedite b = ");
-	scanf("%lf",&b);
-	printf("vvedite c = ");
-	scanf("%lf",&c);
-	
+	printf("vvedite a: ");
+	scanf("%lf", &a);
+	printf("vvedite b: ");
+	scanf("%lf", &b);
+	printf("vvedite c: ");
+	scanf("%lf", &c);
+
 	d=b*b-4*a*c;
 	if (d<0){
 	printf("diskriminant < 0 \n");
