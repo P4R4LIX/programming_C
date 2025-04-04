@@ -3,22 +3,22 @@
 
 int main()
 {
-	int i=0;
+	int i = 0;
 	char s[80];
 	
-	printf("enter ur string: ");
+	printf("vvedite text: ");
 	fgets(s, 80, stdin);
 	while (i<strlen(s))
 	{
-		if (s[i]=='a' || s[i]=='b')
+		if (s[i] == 'a' || s[i] == 'b')
 		{
-			if (s[i]=='a')
+			if (s[i] == 'a')
 			{
-				s[i]='A';
+				s[i] = 'A';
 			}
 			else
 			{
-				s[i]='B';
+				s[i] = 'B';
 			}
 		}
 		i++;
