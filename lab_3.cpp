@@ -4,7 +4,7 @@
 int main()
 {
     char s[80];
-q
+
     printf("vvedite text: ");
     fgets(s, 80, stdin);
 
