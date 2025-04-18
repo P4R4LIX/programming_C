@@ -4,7 +4,7 @@
 
 int main() {
     int n;
-    char operation;
+    char operation
     
     printf("Vvedite razmer matric n: ");
     scanf("%d", &n);
