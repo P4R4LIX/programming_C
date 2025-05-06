@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main()
+int main()f
 {
     while(1) {
     double a,b,c,d,x1,x2;
