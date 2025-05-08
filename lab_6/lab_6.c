@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {s
+int main() {
     FILE *in = fopen("input.txt", "r");
 	FILE *out = fopen("output.txt", "w");
     int year;
