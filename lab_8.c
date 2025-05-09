@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+f
 typedef struct human{
 	char name[20];
 	char fname[30];
