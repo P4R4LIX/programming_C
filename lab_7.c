@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>р
+#include <string.h>
 
 typedef struct {
 	char name[40];
