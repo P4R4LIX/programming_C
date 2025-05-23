@@ -5,7 +5,7 @@
 typedef struct human{
 	char name[20];
 	char fname[30];
-	int year;
+	int year;ы
 };
 
 void sortyear(struct human h, int N){
