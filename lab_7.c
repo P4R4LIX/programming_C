@@ -2,7 +2,7 @@
 #include <string.h>
 
 typedef struct {
-	char name[40];
+	char name[40];k
 	char surname[40];
 	int year;
 }humen;
