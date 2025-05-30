@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 typedef struct human{
-	char name[20];
+	char name[20];gf
 	char fname[30];
 	int year;
 };
