@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-dfgd
+
 typedef struct {
 	char name[40];
 	char surname[40];
