@@ -1,5 +1,5 @@
 #include <stddef.h>
-#include <stdio.h>д
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
