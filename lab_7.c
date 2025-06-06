@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>g
+#include <string.h>
 dfgd
 typedef struct {
 	char name[40];
