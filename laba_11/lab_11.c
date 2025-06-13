@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[0]) {
     if (argc < 2) {
-        printf("Vvedite chisla: %s\n", argv[0]);
+        printf("Using: %s\n", argv[0]);
         return 1;
     }
 
@@ -17,10 +17,10 @@ int main(int argc, char *argv[]) {
         if (num > max) max = num;
     }
 
-    printf("Summa: %.2f\n", sum);
-    printf("Min: %.2f\n", min);
-    printf("Max: %.2f\n", max);
-    printf("Srednee: %.2f\n", sum / count);
+    printf("Summa: %.1f\n", sum);
+    printf("Min: %.1f\n", min);
+    printf("Max: %.1f\n", max);
+    printf("Srednee: %.1f\n", sum / count);
 
     return 0;
 }
